@@ -25,13 +25,14 @@ Create a legend that will provide context for your map data.
 ## References
 
 - ChatGpt
-for (var i = 0; i < grades.length; i++) {
+
+ ```
+ for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i style="background:' + chooseColor(grades[i] + 1) + '"></i> ' +
             grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
     }
+```
 
-
-- https://chat.openai.com/g/g-JNFlk1IA5-map-creator/c/b4e55c4d-dead-4074-ac93-25d884255332
-
+- https://chat.openai.com/
 
